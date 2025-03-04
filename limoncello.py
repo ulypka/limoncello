@@ -1,4 +1,3 @@
-#sasha  -s 1000 -g 38 -f 20
 import argparse, sys
 parser = argparse.ArgumentParser()
 parser.add_argument('-g', help="Final gradus of lemonchelo 35 is default", default=35,type=int)
