@@ -4,7 +4,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-g', help="Final gradus of lemonchelo 35 is default", default=35,type=int)
 parser.add_argument('-k', help="Gradus of spirt 95 is default", default=95,type=int)
 parser.add_argument('-s', help="V of spirt", type=int)
-parser.add_argument('-f', help="procent os sugar in final 30 is default", default=30,type=int)
+parser.add_argument('-f', help="procent os sugar in final 15 is default", default=15,type=int)
 
 args = parser.parse_args()
 if (args.s is None):
